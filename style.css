@@ -1,0 +1,42 @@
+:root {
+    --height: 0px;
+    --width: 0px;
+}
+
+.header {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Sofia", sans-serif;
+}
+
+body {
+    background-image: url("etch-a-sketch-etching-drawing-sketch-toy.jpg");
+}
+
+#wrapper {
+    border-color: black;
+    border: 5px;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 10rem auto;
+    border-color: black;
+    background-color: white;
+    border-radius: 0.25em;
+}
+
+.row {
+    background-color: gray;
+    height: var(--height);
+    width: var(--width);
+    display: inline-flex;
+    border-radius: 0.25em;
+    margin: -2px 0;
+}
+
+.color {
+    background-color: black;
+}
