@@ -1,6 +1,7 @@
 :root {
     --height: 0px;
     --width: 0px;
+    --curr-color: white;
 }
 
 .header {
@@ -28,8 +29,8 @@ body {
     border-radius: 0.25em;
 }
 
-.row {
-    background-color: gray;
+.cell {
+    background-color: var(--curr-color);
     height: var(--height);
     width: var(--width);
     display: inline-flex;
@@ -39,4 +40,14 @@ body {
 
 .color {
     background-color: black;
+}
+
+#createDiv {
+    margin: auto;
+    display: block;
+}
+
+#deleteDiv {
+    margin: 5px auto;
+    display: block;
 }
